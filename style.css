@@ -1,0 +1,45 @@
+
+/* Exemplo básico de estilo customizado */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+section {
+    padding: 20px 0;
+}
+
+#home img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+#gallery img {
+    height: 300px;
+    object-fit: cover;
+}
+
+#quiz {
+    max-width: 500px;
+    margin: auto;
+}
+
+@media (max-width: 576px) {
+    #gallery img {
+        height: 200px;
+    }
+}
+
+.bg-olimpics {
+    background: rgb(4,138,191);
+    background: linear-gradient(90deg, rgba(4,138,191,1) 5%, rgba(242,155,48,1) 25%, rgba(0,0,0,1) 50%, rgba(3,159,71,1) 75%, rgba(242,53,88,1) 95%);
+}

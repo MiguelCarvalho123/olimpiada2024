@@ -793,6 +793,7 @@ section {
   .img-fluid {
     max-width: 100%;
     height: auto;
+    transition: transform 0.4s ease;
   }
   
   .img-thumbnail {

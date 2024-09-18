@@ -159,7 +159,7 @@ section {
   }
 
   .color-back-quiz{
-    background-color: var(--bs-gray-500);
+    background-color: transparent;
   }
   /*---*/
   :root {
@@ -729,6 +729,7 @@ section {
   }
   
   .display-4 {
+    color: white;
     font-size: calc(1.475rem + 2.7vw);
     font-weight: 300;
     line-height: 1.2;
@@ -5075,6 +5076,7 @@ section {
   
   .nav-link:hover,
   .nav-link:focus {
+    color: #fefefe;
     transition: 0.4s;
     transform: scale(1.05);
   }

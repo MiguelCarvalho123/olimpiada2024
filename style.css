@@ -197,6 +197,11 @@ section {
     transform: scale(1.1);
   }
 
+  img.img-fluid1.w-100.rounded:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+  }
+
   .medalha{
       background-image: url('img/back_medalhas.jpg'); /* Substitua pelo caminho da sua imagem */
       background-size: cover; /* Faz com que a imagem cubra todo o fundo */
@@ -868,6 +873,12 @@ section {
 
   .img-fluid0 {
     width: 135%;
+    height: auto;
+    transition: transform 0.4s ease;
+  }
+
+  .img-fluid1 {
+    width: 108%;
     height: auto;
     transition: transform 0.4s ease;
   }

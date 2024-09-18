@@ -6,6 +6,52 @@
     transform: scale(1.03);
 }
 
+td img {
+  width: 10%;
+}
+
+.pequeno {
+  width: 35%;
+}
+
+.olimpics {
+  margin-left: -3%;
+}
+
+.olimpics:hover{
+  cursor: pointer;
+}
+
+.container-fluid img{
+  width: 8%;
+}
+
+.material-symbols-outlined img{
+  margin-top: 10%;
+  width: 60%;
+}
+
+.team-social {
+  margin-top: -5%;
+}
+
+.card2 {
+  background-color: #ffffff;
+  padding: 1%;
+  padding-top: 2%;
+  font-size: 200%;
+  font-family: "Saira", sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 28%;
+  border: 3px solid #000000;
+  border-width: 5px;
+  border-style: groove;
+  border-radius: 10px;
+}
+
 body {
     font-family: Arial, sans-serif;
 }
@@ -144,6 +190,11 @@ section {
     transform: scale(1.1);
   }
   
+  img.img-fluid0.w-100.rounded:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+  }
+
   .medalha{
       background-image: url('img/back_medalhas.jpg'); /* Substitua pelo caminho da sua imagem */
       background-size: cover; /* Faz com que a imagem cubra todo o fundo */
@@ -810,6 +861,12 @@ section {
   
   .img-fluid {
     max-width: 100%;
+    height: auto;
+    transition: transform 0.4s ease;
+  }
+
+  .img-fluid0 {
+    width: 135%;
     height: auto;
     transition: transform 0.4s ease;
   }
@@ -9234,6 +9291,10 @@ section {
   
   .text-center {
     text-align: center !important;
+  }
+
+  .text-justify {
+    text-align: justify !important;
   }
   
   .text-decoration-none {

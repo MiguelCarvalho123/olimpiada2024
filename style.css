@@ -3,7 +3,37 @@
 
 .esqueminha:hover{
     transition: 0.4s;
-    transform: scale(1.03);
+    transform: scale(1.05);
+}
+
+.medals-table {
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.thsize {
+  width: 15%;
+}
+
+#parisimage {
+  width: 50%;x
+}
+.medals-table th, .medals-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.medals-table th {
+  background-color: #4d4d4d;
+  color: white;
+}
+
+.medals-table tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
 
 td img {
@@ -12,6 +42,11 @@ td img {
 
 .pequeno {
   width: 35%;
+}
+
+.pequeno0 {
+  width: 100%;
+  padding: 0%;
 }
 
 .olimpics {
@@ -56,6 +91,22 @@ td img {
 
 body {
     font-family: Arial, sans-serif;
+    color: white !important;
+}
+h2 {
+  color: white;
+}
+h1 {
+  color: white;
+}
+td {
+  color: black !important;
+}
+#bodyid {
+  background-image: url("img/oo36twekciqogi7th0eq-fotor-20241021112947.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
 }
 
 header {
@@ -67,7 +118,7 @@ section {
 }
 
 #home img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
 }
 
@@ -198,6 +249,21 @@ section {
   }
 
   img.img-fluid1.w-100.rounded:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+  }
+
+  img.img-fluid2.w-100.rounded:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+  }
+
+  img.img-fluid3.w-100.rounded:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+  }
+
+  img.img-fluid4.w-100.rounded:hover {
     transition: 0.4s;
     transform: scale(1.1);
   }
@@ -866,6 +932,7 @@ section {
   }
   
   .img-fluid {
+    border: 2px solid black;
     max-width: 100%;
     height: auto;
     transition: transform 0.4s ease;
@@ -879,6 +946,26 @@ section {
 
   .img-fluid1 {
     width: 108%;
+    height: auto;
+    transition: transform 0.4s ease;
+  }
+
+  .img-fluid2 {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.4s ease;
+  }
+
+  .img-fluid3 {
+    border: 2px solid black;
+    max-width: 50%;
+    height: auto;
+    transition: transform 0.4s ease;
+  }
+
+  .img-fluid4 {
+    border: 2px solid black;
+    width: 65%;
     height: auto;
     transition: transform 0.4s ease;
   }
@@ -8431,7 +8518,9 @@ section {
   .bottom-100 {
     bottom: 100% !important;
   }
-  
+  th {
+    color: white !important;
+  }
   .start-0 {
     left: 0 !important;
   }
@@ -9307,6 +9396,8 @@ section {
   }
 
   .text-justify {
+    width: 70%;
+    margin-left: 12vw;
     text-align: justify !important;
   }
   
@@ -9472,7 +9563,7 @@ section {
   
   .bg-light {
     --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+    background-color: #1e1e1e !important;
   }
   
   .bg-dark {
@@ -10910,6 +11001,7 @@ section {
     }
   }
   
+  -
   @media (min-width: 992px) {
     .float-lg-start {
       float: left !important;

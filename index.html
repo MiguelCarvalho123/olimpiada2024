@@ -20,7 +20,7 @@
     <link rel="icon" type="img/jpg" href="img/logo_olimpic.png">
 </head>
 
-<body>
+<body id = "bodyid">
 
     <!-- Header -->
     <header class="bg-dark bg-olimpics text-white py-3">
@@ -43,8 +43,8 @@
                             <li class="nav-item"><a class="nav-link" href="#about-basket">Sobre</a></li>
                             <li class="nav-item"><a class="nav-link" href="#rules">Regras</a></li>
                             <li class="nav-item"><a class="nav-link" href="#ranking">Classificação</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#medals">Medalhas</a></li>
                             <li class="nav-item"><a class="nav-link" href="#gallery">Galeria</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#medals">Medalhas</a></li>     
                             <li class="nav-item"><a class="nav-link" href="#quiz">Quiz</a></li>
                             <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
                         </ul>
@@ -57,27 +57,24 @@
     <!-- Main Section -->
     <section id="home" class="text-center my-5">
         <div class="container">
-            <h2 class="display-3">Bem-vindo às Olimpíadas Paris 2024</h2>
+            <h2 class="display-3">Bem-vindo às Olimpíadas Paris 2024</h2><br><br>
+            <img src="img/paris.jpg" class="img-fluid4 rounded esqueminha" alt="Paris 2024">
+            <br><br>
             <p class="lead">Explore tudo sobre os Jogos Olímpicos que ocorreram na bela cidade de Paris. Fique
                 atualizado sobre eventos, horários e notícias.</p>
-            <img src="img/paris.jpg" class="img-fluid rounded esqueminha" alt="Paris 2024">
         </div>
     </section>
-
-    <hr size="5px">
 
     <!-- About Paris Section -->
     <section id="paris" class="text-center my-5">
         <div class="container">
-            <h2>Sobre Paris</h2>
+            <h1>Sobre Paris</h1>
             <p>Paris, a capital da França, é conhecida por sua rica história, arquitetura icônica e vibrante cultura.
                 Desde a Torre Eiffel até o Museu do Louvre, a cidade oferece uma experiência única para visitantes e
-                atletas.</p>
-            <img src="img/paris2024.jpg" class="img-fluid roundeds esqueminha" alt="Sobre Paris">
+                atletas.</p><br><br>
+            <img src="img/paris2024.jpg" id = "parisimage" class="img-fluid roundeds esqueminha" alt="Sobre Paris">
         </div>
     </section>
-
-    <hr size="5px">
 
     <!-- Attractions Section -->
     <section id="attractions" class="bg-light py-5">
@@ -116,37 +113,31 @@
         </div>
     </section>
 
-    <hr size="5px">
-
     <!-- Basket Section -->
     <section id="basket" class="text-center my-5">
         <div class="container">
             <h2 class="display-3">Basquetebol</h2>
             <p class="lead">O Basquetebol é um esporte de ritmo intenso que combina habilidade, estratégia e trabalho em
                 equipe para alcançar a vitória.</p>
-            <img src="img/logo-basquete.png" class="img-fluid rounded esqueminha" alt="Paris 2024">
+            <img src="img/logo-basquete.png" class="img-fluid2 rounded esqueminha" alt="Paris 2024">
         </div>
     </section>
-
-    <hr size="5px">
 
     <!-- About Basket Section -->
     <section id="about-basket" class="text-center my-5">
         <div class="container">
-            <h2>Sobre o Basquetebol</h2>
+            <h2>Sobre o Basquetebol</h2><br>
             <p class="text-justify">
                 O Basquetebol também chamado de Basquete, foi inventado em 1891 por James W. Naismith, professor de
                 educação física, com o objetivo de manter seus alunos em forma durante o inverno. Ele criou o esporte em
                 uma quadra coberta, e muitas das regras estabelecidas na época ainda são utilizadas. Os primeiros jogos
                 internacionais aconteceram nos anos 1920, e os campeonatos mundiais começaram na década de 1950.
-            </p>
+            </p><br>
             <div class="text-center">
-                <img src="img/basquete.jpg" class="img-fluid roundeds esqueminha" alt="Sobre Paris">
+                <img src="img/basquete.jpg" class="img-fluid3 roundeds esqueminha" alt="Sobre Paris">
             </div>
         </div>
     </section>
-
-    <hr size="5px">
 
     <!-- Rules Basket Section -->
     <section id="rules" class="text-center my-5">
@@ -159,12 +150,10 @@
                 agilidade, força e habilidade para se destacar tanto no ataque quanto na defesa.
             </p>
             <div class="text-center">
-                <img src="img/basquete0.jpg" class="img-fluid roundeds esqueminha" alt="Sobre Paris">
+                <img src="img/basquete0.jpg" class="img-fluid3 roundeds esqueminha" alt="Sobre Paris">
             </div>
         </div>
     </section>
-
-    <hr size="5px">
 
     <!-- Ranking Basket Section -->
     <section id="ranking" class="text-center my-5">
@@ -182,7 +171,7 @@
                 <tbody>
                     <tr class="table-warning" class="text-center">
                         <td class="table-warning pequeno">
-                            <img src="img/eua.png" /> &nbsp; Estados Unidos
+                            <img class="img-fluid rounded esqueminha" src="img/eua.png" /> &nbsp; Estados Unidos
                         <td class="table-warning">
                             1º Lugar
                         <td class="table-warning">
@@ -195,7 +184,8 @@
                     </tr>
                     <tr class="table-secondary">
                         <td class="table-secondary">
-                            <img src="img/fra.png" /> &nbsp; França &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <img class="img-fluid rounded esqueminha" src="img/fra.png" /> &nbsp; França
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <td class="table-secondary">
                             2º Lugar
                         <td class="table-secondary">
@@ -208,7 +198,8 @@
                     </tr>
                     <tr class="table-light">
                         <td class="table-light">
-                            <img src="img/australia.png" /> &nbsp; Austrália &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <img class="img-fluid rounded esqueminha" src="img/australia.png" /> &nbsp; Austrália
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <td class="table-light">
                             3º Lugar
                         <td class="table-light">
@@ -220,175 +211,81 @@
                         </td>
                     </tr>
                     <tr class="table-light"></tr>
-                        <td class="table-light">
-                            <img src="img/ser.jpg" /> &nbsp; Sérvia &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <td class="table-light">
-                            3º Lugar
-                        <td class="table-light">
-                            1
-                        </td>
-                        <td class="table-light">
-                        </td>
-                        </td>
-                        </td>
+                    <td class="table-light">
+                        <img class="img-fluid rounded esqueminha" src="img/ser.jpg" /> &nbsp; Sérvia
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <td class="table-light">
+                        3º Lugar
+                    <td class="table-light">
+                        1
+                    </td>
+                    <td class="table-light">
+                    </td>
+                    </td>
+                    </td>
                     </tr>
                 </tbody>
             </table>
         </div>
     </section>
 
-    <hr size="5px">
-
     <!-- Gallery Section -->
     <section id="gallery" class="text-center my-5">
         <div class="container">
-            <h2>Galeria de Fotos</h2>
+            <br><h1>Galeria de Fotos</h1><br>
             <div class="row">
                 <div class="col-md-4 mb-4">
-                    <img src="img/medina.jpg" class="img-fluid rounded size-img card-img-top" alt="Galeria 1">
+                    <img src="img/medina.jpg" class="img-fluid1 rounded size-img card-img-top" alt="Galeria 1">
                 </div>
                 <div class="col-md-4 mb-4">
-                    <img src="img/rebeca.jpg" class="img-fluid rounded size-img card-img-top" alt="Galeria 2">
+                    <img src="img/rebeca.jpg" class="img-fluid1 rounded size-img card-img-top" alt="Galeria 2">
                 </div>
                 <div class="col-md-4 mb-4">
-                    <img src="img/rayssa.jpg" class="img-fluid rounded size-img card-img-top" alt="Galeria 3">
+                    <img src="img/rayssa.jpg" class="img-fluid1 rounded size-img card-img-top" alt="Galeria 3">
                 </div>
                 <div class="col-md-4 mb-4">
-                    <img src="img/calderano.jpg" class="img-fluid rounded size-img card-img-top" alt="Galeria 4">
+                    <img src="img/calderano.jpg" class="img-fluid1 rounded size-img card-img-top" alt="Galeria 4">
                 </div>
                 <div class="col-md-4 mb-4">
-                    <img src="img/lebron.jpg" class="img-fluid rounded size-img card-img-top" alt="Galeria 5">
+                    <img src="img/lebron.jpg" class="img-fluid1 rounded size-img card-img-top" alt="Galeria 5">
                 </div>
                 <div class="col-md-4 mb-4">
-                    <img src="img/yusuf.jpg" class="img-fluid rounded size-img card-img-top" alt="Galeria 6">
+                    <img src="img/yusuf.jpg" class="img-fluid1 rounded size-img card-img-top" alt="Galeria 6">
                 </div>
             </div>
         </div>
-    </section>
-
-    <hr size="5px">
+    </section><br>
 
     <!-- Medals Section -->
-    <section id="medals" class="medalha bg-light py-5">
-        <div class="container">
-            <div class="card2">
-                <p>Quadro De Medalhas</p>
-            </div>
-            <br><br>
-
-            <div class="row g-4">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <div class="col-lg-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item position-relative rounded overflow-hidden">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid1" src="img/eua.png" alt="">
-                        </div>
-                        <div class="team-text bg-light text-center p-4">
-                            <h5>Estados Unidos</h5>
-                            <p class="text-primary">1º</p>
-                            <div class="team-social text-center">
-                                <p>
-                                    40 Ouros
-                                    <br><br>
-                                    <span class="material-symbols-outlined">
-                                        <img src="img/workspace_premium.png" />
-                                    </span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item position-relative rounded overflow-hidden">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/chn.jpg" alt="">
-                        </div>
-                        <div class="team-text bg-light text-center p-4">
-                            <h5>China</h5>
-                            <p class="text-primary">2º</p>
-                            <div class="team-social text-center">
-                                <p>
-                                    40 Ouros
-                                    <br><br>
-                                    <span class="material-symbols-outlined">
-                                        <img src="img/workspace_premium.png" />
-                                    </span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item position-relative rounded overflow-hidden">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/jpn.png" alt="">
-                        </div>
-                        <div class="team-text bg-light text-center p-4">
-                            <h5>Japão</h5>
-                            <p class="text-primary">3º</p>
-                            <div class="team-social text-center">
-                                <p>
-                                    20 Ouros
-                                    <br><br>
-                                    <span class="material-symbols-outlined">
-                                        <img src="img/workspace_premium.png" />
-                                    </span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item position-relative rounded overflow-hidden">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid0" src="img/aus.png" alt="">
-                        </div>
-                        <div class="team-text bg-light text-center p-4">
-                            <h5>Austrália</h5>
-                            <p class="text-primary">4º</p>
-                            <div class="team-social text-center">
-                                <p>
-                                    18 Ouros
-                                    <br><br>
-                                    <span class="material-symbols-outlined">
-                                        <img src="img/workspace_premium.png" />
-                                    </span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item position-relative rounded overflow-hidden">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/fra.png" alt="">
-                        </div>
-                        <div class="team-text bg-light text-center p-4">
-                            <h5>França</h5>
-                            <p class="text-primary">5º</p>
-                            <div class="team-social text-center">
-                                <p>
-                                    16 Ouros
-                                    <br><br>
-                                    <span class="material-symbols-outlined">
-                                        <img src="img/workspace_premium.png" />
-                                    </span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section id="medals" class="text-center my-5">
+        <div id="container" class="container">
+            <h1>Quadro de Medalhas</h1><br>
+            <table class="medals-table">
+                <thead>
+                    <tr>
+                        <th>Bandeiras</th>
+                        <th class="thsize">Colocação</th>
+                        <th>Equipes</th>
+                        <th><img src="img/workspace_premium-gold.png"></th>
+                        <th><img src="img/workspace_premium-silver.png"></th>
+                        <th><img src="img/workspace_premium-bronze.png"></th>
+                        <th>Total de Medalhas</th>
+                    </tr>
+                </thead>
+                <tbody id="medals-body">
+                    <!-- As infomações serão preenchidas aqui -->
+                </tbody>
+            </table>
         </div>
-
+        <script src="script.js"></script> <!-- Link com o Javascript -->
     </section>
 
-    <hr size="5px">
+    <br>
 
     <!-- Quiz Section -->
     <section id="quiz" class="color-back-quiz py-5">
         <div class="container">
-            <h2 class="text-center">Quiz Olímpico</h2>
+            <h2 class="text-center">Quiz Olímpico</h2><br>
             <form id="quizForm" class="text-center">
                 <div class="mb-3">
                     <label for="question1" class="form-label">Qual Cidade Sediou As Olimpíadas De 2024?</label>
@@ -455,7 +352,7 @@
                 </div>
                 <br>
                 <hr size="5px">
-            
+
                 <button type="submit" class="btn btn-primary4">Enviar</button>
                 &nbsp;
                 <button type="reset" onclick="location.reload()" class="btn btn-primary5">Limpar</button>
@@ -469,7 +366,7 @@
             <!-- Start Form -->
             <form name="form" class="form" method="get">
                 <h1>Formulário de Contato</h1>
-                <h2>Nos de Seu Feedback</h2>
+                <h2>Nos dê seu Feedback</h2>
                 <div class="mb-3">
                     <label for="exampleInputName1" class="form-label">Nome</label>
                     <input type="name" name="nome" class="form-control" id="exampleInputName1"
@@ -521,14 +418,14 @@
             const answer1 = document.getElementById('question1').value;
             const resultDiv1 = document.getElementById('quizResult1');
 
-            //Start 1
+            //Start question 1
             if (answer1 === 'Paris') {
                 resultDiv1.innerHTML = '<div class="alert alert-success">Correto! A Cidade Sede Das Olimpíadas De 2024 É Paris.</div>';
             } else {
                 resultDiv1.innerHTML = '<div class="alert alert-danger">Incorreto. A Resposta Certa É Paris.</div>';
             }
-            //End 1
-            //Start 2
+            //End question 1
+            //Start question 2
             const answer2 = document.getElementById('question2').value;
             const resultDiv2 = document.getElementById('quizResult2');
 
@@ -537,8 +434,8 @@
             } else {
                 resultDiv2.innerHTML = '<div class="alert alert-danger">Incorreto. A Resposta Certa É Rebeca Andrade.</div>';
             }
-            //End 2
-            //Start 3
+            //End question 2
+            //Start question 3
             const answer3 = document.getElementById('question3').value;
             const resultDiv3 = document.getElementById('quizResult3');
 
@@ -547,8 +444,8 @@
             } else {
                 resultDiv3.innerHTML = '<div class="alert alert-danger">Incorreto. A Resposta Certa É Estados Unidos.</div>';
             }
-            //End 3
-            //Start 4
+            //End question 3
+            //Start question 4
             const answer4 = document.getElementById('question4').value;
             const resultDiv4 = document.getElementById('quizResult4');
 
@@ -557,8 +454,8 @@
             } else {
                 resultDiv4.innerHTML = '<div class="alert alert-danger">Incorreto. A Resposta Certa É 3 Medalhas De Ouro.</div>';
             }
-            //End 4
-            //Start 5
+            //End question 4
+            //Start question 5
             const answer5 = document.getElementById('question5').value;
             const resultDiv5 = document.getElementById('quizResult5');
 
@@ -567,7 +464,7 @@
             } else {
                 resultDiv5.innerHTML = '<div class="alert alert-danger">Incorreto. A Resposta Certa É 20º Lugar.</div>';
             }
-            //End 5
+            //End question 5
 
             resultDiv1.innerHTML = resultMessage;
             resultDiv2.innerHTML = resultMessage;
@@ -580,9 +477,9 @@
             const form = document.querySelector('.form');
             form.addEventListener('submit', function (event) {
                 if (form.checkValidity()) {
-                    event.preventDefault(); // Prevenir Submissão Para Demonstrar o Alerta
+                    event.preventDefault(); // Prevenir Submissão Para Demonstrar o Alert
                     alert('Sua Mensagem Foi Enviada Com Sucesso !');
-                    form.reset(); // Limpar os Campos do Formulário
+                    form.reset(); // Limpar os Campos do Forms
                 }
             });
         });
